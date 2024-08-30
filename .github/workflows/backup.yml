@@ -7,7 +7,7 @@ on:
 
 env:
   UPSTREAM_REPO: ${{ vars.UPSTREAM_REPO || 'https://github.com/ergoplatform/ergo.git' }}
-  MAIN_BRANCH: ${{ vars.MAIN_BRANCH || 'main' }}
+  MAIN_BRANCH: ${{ vars.MAIN_BRANCH || 'master' }}
 
 jobs:
   backup-and-sync:
